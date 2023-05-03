@@ -1,0 +1,25 @@
+Idade,Status,N. Filhos,Risco
+30,Casado,3,Alto
+30,Casado,3,Alto
+30,Casado,4,Alto
+40,Casado,2,Alto
+40,Casado,3,Alto
+50,Casado,1,Alto
+50,Casado,3,Alto
+20,Casado,0,Baixo
+30,Casado,3,Baixo
+40,Casado,1,Baixo
+40,Casado,1,Baixo
+40,Casado,2,Baixo
+20,Solteiro,0,Alto
+20,Solteiro,1,Alto
+30,Solteiro,0,Alto
+20,Solteiro,0,Baixo
+20,Solteiro,0,Baixo
+20,Solteiro,0,Baixo
+20,Solteiro,0,Baixo
+30,Solteiro,1,Baixo
+30,Solteiro,1,Baixo
+30,Solteiro,1,Baixo
+30,Solteiro,3,Baixo
+40,Solteiro,2,Baixo
