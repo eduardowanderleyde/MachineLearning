@@ -1,0 +1,42 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.bayes.NaiveBayes -F 5 -T 0.01 -R 1 -E AUC --
+Search:       weka.attributeSelection.GreedyStepwise -B -T -1.7976931348623157E308 -N -1 -num-slots 1
+Relation:     breast-cancer
+Instances:    286
+Attributes:   10
+              age
+              menopause
+              tumor-size
+              inv-nodes
+              node-caps
+              deg-malig
+              breast
+              breast-quad
+              irradiat
+              Class
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Greedy Stepwise (backwards).
+	Start set: all attributes
+	Merit of best subset found:    0.709
+
+Attribute Subset Evaluator (supervised, Class (nominal): 10 Class):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.bayes.NaiveBayes
+	Scheme options: 
+	Subset evaluation: area under the ROC curve 
+	Number of folds for accuracy estimation: 5
+
+Selected attributes: 2,3,5,6,9 : 5
+                     menopause
+                     tumor-size
+                     node-caps
+                     deg-malig
+                     irradiat
+
